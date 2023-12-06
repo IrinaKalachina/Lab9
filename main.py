@@ -1,6 +1,6 @@
 import threading
 
-lock = threading.Lock()
+lock = threading.RLock()
 
 
 # Функция, которая будет выполняться в каждом потоке
